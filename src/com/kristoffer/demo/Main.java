@@ -8,6 +8,7 @@ import com.kristoffer.demo.lektion_2.puzzle_3.SwitchPlacesDataStructure;
 import com.kristoffer.demo.lektion_2.puzzle_4_tough_nut.NoNegative;
 import com.kristoffer.demo.lektion_2.uppgift_3.DataStructureTraining;
 import com.kristoffer.demo.lektion_2.uppgift_4.Student;
+import com.kristoffer.demo.lektion_3.puzzle_1.BennyTheMagician;
 import com.kristoffer.demo.lektion_3.uppgift_5_tough_nut.SwitchTraining;
 
 import java.util.ArrayList;
@@ -146,7 +147,9 @@ public class Main {
 
          */
 
-
+        // Exercise Puzzle 3_1
+        BennyTheMagician benny = new BennyTheMagician();
+        benny.castMagicSpell();
 
 
 
