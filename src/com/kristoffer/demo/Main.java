@@ -8,6 +8,7 @@ import com.kristoffer.demo.lektion_2.puzzle_3.SwitchPlacesDataStructure;
 import com.kristoffer.demo.lektion_2.puzzle_4_tough_nut.NoNegative;
 import com.kristoffer.demo.lektion_2.uppgift_3.DataStructureTraining;
 import com.kristoffer.demo.lektion_2.uppgift_4.Student;
+import com.kristoffer.demo.lektion_3.uppgift_5_tough_nut.SwitchTraining;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -95,11 +96,63 @@ public class Main {
          */
 
         // Exercise Puzzle 2_4
+        /*
         NoNegative noNegative = new NoNegative();
 
-        noNegative.noNeg(new ArrayList<>(
-                Arrays.asList(0, 5, -1)
-        ));
+        List<Integer> scoreList = new ArrayList<>();
+
+        scoreList.add(5);
+        scoreList.add(-5);
+        scoreList.add(-50);
+        scoreList.add(500);
+
+        System.out.println(scoreList);
+        System.out.println(noNegative.filterNegativeNumbers(scoreList));
+
+         */
+
+        // Exercise 3_1
+        /*
+        SwitchTraining switchTraining = new SwitchTraining();
+        switchTraining.weekDay = "5";
+
+        switchTraining.findWeekDay();
+
+         */
+
+        // Exercise 3_2
+        /*
+        SwitchTraining switchTraining = new SwitchTraining();
+        switchTraining.findWeekDayScanner();
+
+         */
+
+        // Exercise 3_3
+        /*
+        SwitchTraining switchTraining = new SwitchTraining();
+        switchTraining.infiniteScannerSwitch();
+         */
+
+        // Exercise 3_4
+        /*
+        SwitchTraining switchTraining = new SwitchTraining();
+        switchTraining.infiniteScannerSwitch();
+         */
+
+        // Exercise 3_5 Tough Nut
+        /*
+        SwitchTraining switchTraining = new SwitchTraining();
+        switchTraining.test();
+
+         */
+
+
+
+
+
+
+
+
 
     }
 
