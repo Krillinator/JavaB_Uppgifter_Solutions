@@ -10,6 +10,8 @@ import com.kristoffer.demo.lektion_2.uppgift_3.DataStructureTraining;
 import com.kristoffer.demo.lektion_2.uppgift_4.Student;
 import com.kristoffer.demo.lektion_3.puzzle_1.BennyTheMagician;
 import com.kristoffer.demo.lektion_3.uppgift_5_tough_nut.SwitchTraining;
+import com.kristoffer.demo.lektion_4.puzzle_1.Book;
+import com.kristoffer.demo.lektion_4.puzzle_1.LibraryApp;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -148,12 +150,19 @@ public class Main {
          */
 
         // Exercise Puzzle 3_1
+        /*
         BennyTheMagician benny = new BennyTheMagician();
         benny.castMagicSpell();
+         */
 
+        // Exercise Puzzle 4_1
+        LibraryApp libraryApp = new LibraryApp();
 
+        libraryApp.addBookToShelf(
+                new Book("MyBook", "Benny", "1_000_000")
+        );
 
-
+        System.out.println(libraryApp.getBookshelfList());
 
 
 
