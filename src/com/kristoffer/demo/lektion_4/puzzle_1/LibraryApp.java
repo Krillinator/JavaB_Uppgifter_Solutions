@@ -1,10 +1,11 @@
 package com.kristoffer.demo.lektion_4.puzzle_1;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class LibraryApp {
 
-    private List<Book> bookshelfList;
+    private List<Book> bookshelfList = new ArrayList<>();
 
     public void addBookToShelf(Book book) {
         getBookshelfList().add(book);
@@ -22,7 +23,7 @@ public class LibraryApp {
         return bookshelfList;
     }
 
-    public void setBookshelfList(List<Book> bookshelfList) {
+    public void setBookshelfList(ArrayList<Book> bookshelfList) {
         this.bookshelfList = bookshelfList;
     }
 }

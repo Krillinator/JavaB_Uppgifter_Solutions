@@ -159,7 +159,7 @@ public class Main {
         LibraryApp libraryApp = new LibraryApp();
 
         libraryApp.addBookToShelf(
-                new Book("MyBook", "Benny", "1_000_000")
+                new Book("MyBook", "Benny")
         );
 
         System.out.println(libraryApp.getBookshelfList());
