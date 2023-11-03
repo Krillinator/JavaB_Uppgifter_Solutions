@@ -12,6 +12,11 @@ import com.kristoffer.demo.lektion_3.puzzle_1.BennyTheMagician;
 import com.kristoffer.demo.lektion_3.uppgift_5_tough_nut.SwitchTraining;
 import com.kristoffer.demo.lektion_4.puzzle_1.Book;
 import com.kristoffer.demo.lektion_4.puzzle_1.LibraryApp;
+import com.kristoffer.demo.lektion_5.Biology;
+import com.kristoffer.demo.lektion_5.IT;
+import com.kristoffer.demo.lektion_5.Math;
+import com.kristoffer.demo.lektion_5.Subject;
+import com.kristoffer.demo.lektion_5.puzzle_1.CardGame;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -156,6 +161,7 @@ public class Main {
          */
 
         // Exercise Puzzle 4_1
+        /*
         LibraryApp libraryApp = new LibraryApp();
 
         libraryApp.addBookToShelf(
@@ -163,8 +169,28 @@ public class Main {
         );
 
         System.out.println(libraryApp.getBookshelfList());
+         */
 
+        // Exercise 5_2
+        // Instantiate Subjects
+        /*
+        Math math = new Math();
+        IT it = new IT();
+        Biology biology = new Biology();
 
+        List<Subject> subjectList = new ArrayList();
+
+        subjectList.add(math);
+        subjectList.add(it);
+        subjectList.add(biology);
+
+         */
+
+        // Exercise puzzle 5_1
+        CardGame cardGame = new CardGame();
+
+        cardGame.generateDeckOfCards();
+        System.out.println(cardGame.getDeck());
 
     }
 
